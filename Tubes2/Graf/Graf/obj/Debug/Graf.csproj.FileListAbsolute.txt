@@ -1,0 +1,14 @@
+D:\_STIMA\Tubes2\Graf\Graf\bin\Debug\Graf.exe.config
+D:\_STIMA\Tubes2\Graf\Graf\bin\Debug\Graf.exe
+D:\_STIMA\Tubes2\Graf\Graf\bin\Debug\Graf.pdb
+D:\_STIMA\Tubes2\Graf\Graf\obj\Debug\Graf.csprojAssemblyReference.cache
+D:\_STIMA\Tubes2\Graf\Graf\obj\Debug\MainWindow.g.cs
+D:\_STIMA\Tubes2\Graf\Graf\obj\Debug\App.g.cs
+D:\_STIMA\Tubes2\Graf\Graf\obj\Debug\Graf_MarkupCompile.cache
+D:\_STIMA\Tubes2\Graf\Graf\obj\Debug\Graf_MarkupCompile.lref
+D:\_STIMA\Tubes2\Graf\Graf\obj\Debug\MainWindow.baml
+D:\_STIMA\Tubes2\Graf\Graf\obj\Debug\Graf.g.resources
+D:\_STIMA\Tubes2\Graf\Graf\obj\Debug\Graf.Properties.Resources.resources
+D:\_STIMA\Tubes2\Graf\Graf\obj\Debug\Graf.csproj.GenerateResource.cache
+D:\_STIMA\Tubes2\Graf\Graf\obj\Debug\Graf.exe
+D:\_STIMA\Tubes2\Graf\Graf\obj\Debug\Graf.pdb

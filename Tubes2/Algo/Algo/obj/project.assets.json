@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\_STIMA\\Tubes2\\Algo\\Algo\\Algo.csproj",
+      "projectUniqueName": "D:\\_STIMA\\Tubes2Stima\\Tubes2\\Algo\\Algo\\Algo.csproj",
       "projectName": "Algo",
-      "projectPath": "D:\\_STIMA\\Tubes2\\Algo\\Algo\\Algo.csproj",
+      "projectPath": "D:\\_STIMA\\Tubes2Stima\\Tubes2\\Algo\\Algo\\Algo.csproj",
       "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "D:\\_STIMA\\Tubes2\\Algo\\Algo\\obj\\",
+      "outputPath": "D:\\_STIMA\\Tubes2Stima\\Tubes2\\Algo\\Algo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

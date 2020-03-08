@@ -1,0 +1,14 @@
+D:\_STIMA\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\grafGUI.csprojAssemblyReference.cache
+D:\_STIMA\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\MainWindow.g.cs
+D:\_STIMA\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\App.g.cs
+D:\_STIMA\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\grafGUI_MarkupCompile.cache
+D:\_STIMA\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\grafGUI_MarkupCompile.lref
+D:\_STIMA\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\bin\Debug\grafGUI.exe.config
+D:\_STIMA\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\bin\Debug\grafGUI.exe
+D:\_STIMA\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\bin\Debug\grafGUI.pdb
+D:\_STIMA\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\MainWindow.baml
+D:\_STIMA\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\grafGUI.g.resources
+D:\_STIMA\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\grafGUI.Properties.Resources.resources
+D:\_STIMA\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\grafGUI.csproj.GenerateResource.cache
+D:\_STIMA\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\grafGUI.exe
+D:\_STIMA\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\grafGUI.pdb

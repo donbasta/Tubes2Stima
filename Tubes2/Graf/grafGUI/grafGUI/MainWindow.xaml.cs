@@ -1,10 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
 
-namespace Algo
+namespace grafGUI
 {
-    class Program
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
     {
         const int INF = 1000000000;
         const Double EULER = 2.71828182845904523536;
@@ -24,6 +38,8 @@ namespace Algo
         static List<(int, int)> edgeList;
         static List<(int, int)> infectedEdge;
 
+        static string file1, file2;
+
         static Double Ifunc(int a, int tt)
         { // kota, hari total a terinfeksi
             Double atas = populasi[a];
@@ -38,7 +54,8 @@ namespace Algo
 
         static void input()
         {   // input dari file populasi.txt dan sisi.txt
-            string[] lines = System.IO.File.ReadAllLines("../../../populasi.txt");
+            // string[] lines = System.IO.File.ReadAllLines("../../../populasi.txt");
+            string[] lines = System.IO.File.ReadAllLines(@file1);
             string[] line = lines[0].Split(' ');
 
             n = Int32.Parse(line[0]);
@@ -56,7 +73,8 @@ namespace Algo
                 nameIndex[getNameFromidx[i]] = i;
             }
 
-            lines = System.IO.File.ReadAllLines("../../../sisi.txt");
+            // lines = System.IO.File.ReadAllLines("../../../sisi.txt");
+            lines = System.IO.File.ReadAllLines(@file2);
             root = nameIndex[awal];
             line = lines[0].Split();
             int m = Int32.Parse(line[0]);
@@ -179,16 +197,76 @@ namespace Algo
         {
             return infectedEdge;
         }
-
-        static void Main(string[] args)
+        public MainWindow()
         {
-            input();  // input dari file populasi.txt dan sisi.txt
-            BFS(30);  // T = 30 hari
-            Console.WriteLine("Kota yang terinfeksi: ");
-            foreach (int x in infectedCity)
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            // Create OpenFileDialog 
+            Microsoft.Win32.OpenFileDialog dlg = new Microsoft.Win32.OpenFileDialog();
+
+
+
+            // Set filter for file extension and default file extension 
+            dlg.DefaultExt = ".txt";
+            dlg.Filter = "Text files (*.txt)|*.txt|All files (*.*)|*.*";
+
+
+            // Display OpenFileDialog by calling ShowDialog method 
+            Nullable<bool> result = dlg.ShowDialog();
+
+
+            // Get the selected file name and display in a TextBox 
+            if (result == true)
             {
-                Console.WriteLine(getNameFromidx[x]);
+                // Open document 
+                file1 = dlg.FileName;
+                ChoosenFile.Text = file1;
             }
         }
+
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+            // Create OpenFileDialog 
+            Microsoft.Win32.OpenFileDialog dlg = new Microsoft.Win32.OpenFileDialog();
+
+
+
+            // Set filter for file extension and default file extension 
+            dlg.DefaultExt = ".txt";
+            dlg.Filter = "Text files (*.txt)|*.txt|All files (*.*)|*.*";
+
+
+            // Display OpenFileDialog by calling ShowDialog method 
+            Nullable<bool> result = dlg.ShowDialog();
+
+
+            // Get the selected file name and display in a TextBox 
+            if (result == true)
+            {
+                // Open document 
+                file2 = dlg.FileName;
+                ChoosenFile2.Text = file2;
+            }
+        }
+
+        private void button3_Click(object sender, RoutedEventArgs e)
+        {
+            string temp = "";
+            int query = Int32.Parse(Query.Text);
+            input();
+            BFS(query);
+            temp = temp + "Kota yang terinfeksi: \n";
+            foreach (int x in infectedCity)
+            {
+                temp = temp + getNameFromidx[x] + "\n";
+            }
+
+            Hasil.Text = temp;
+        }
     }
+
+    
 }

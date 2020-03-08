@@ -1,0 +1,58 @@
+﻿<Window x:Class="grafGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:grafGUI"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="MainWindow" Height="650" Width="800">
+    <Border Padding="10">
+        <StackPanel>
+            <!-- Open files -->
+            <TextBlock Margin="0, 10, 0, 0" Text="File konfigurasi kota " FontWeight="Bold" FontSize="15" />
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0" Margin="0, 0, 10, 0">
+                    <TextBlock Margin="0, 10, 0, 0" Text="Pilih file populasi kota: " FontSize="14" />
+                    <TextBox Margin="0, 10, 0, 10" x:Name="ChoosenFile" Padding="2" Height="20" />
+                    <Grid Margin="0,10,0,0" Height="25">
+
+                        <Button x:Name="OpenfilesButton" Click="button1_Click" Margin="0 0 0 0" Content="Choose file.." />
+
+                    </Grid>
+                </StackPanel>
+                <StackPanel Grid.Column="1" Margin="10, 0, 0, 0">
+                    <TextBlock Margin="0, 10, 0, 0" Text="Pilih file hubungan kota: " FontSize="14" />
+                    <TextBox Margin="0, 10, 0, 10" x:Name="ChoosenFile2" Padding="2" Height="20" />
+                    <Grid Margin="0,10,0,0" Height="25">
+
+                        <Button x:Name="OpenfilesButton2" Click="button2_Click" Margin="0 0 0 0" Content="Choose file.." />
+
+                    </Grid>
+                </StackPanel>
+            </Grid>
+
+            <TextBlock Margin="0, 20, 0, 0" Text="Query " FontWeight="Bold" FontSize="15" />
+
+            <!-- Query hari -->
+            <TextBlock Margin="0, 10, 0, 0" Text="Hari ke: " FontSize="15" />
+            <TextBox x:Name="Query" Padding="2" Height="20" />
+            <Grid Margin="0,10,0,0" Height="25">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Button x:Name="QueryButton" Click="button3_Click" Margin="0 0 0 0" Grid.Column="0" Content="Simulate" />
+
+            </Grid>
+
+            <TextBox Margin="0, 20, 0, 0"  x:Name="Hasil" Padding="2" Height="300" />
+        </StackPanel>
+    </Border>
+</Window>

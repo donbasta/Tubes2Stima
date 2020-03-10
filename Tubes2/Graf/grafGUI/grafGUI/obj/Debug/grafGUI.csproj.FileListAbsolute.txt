@@ -12,3 +12,40 @@ D:\_STIMA\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\grafGUI.Properties.R
 D:\_STIMA\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\grafGUI.csproj.GenerateResource.cache
 D:\_STIMA\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\grafGUI.exe
 D:\_STIMA\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\grafGUI.pdb
+C:\Users\Farras\Desktop\Semester 4\Stima\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\bin\Debug\grafGUI.exe.config
+C:\Users\Farras\Desktop\Semester 4\Stima\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\bin\Debug\grafGUI.exe
+C:\Users\Farras\Desktop\Semester 4\Stima\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\bin\Debug\grafGUI.pdb
+C:\Users\Farras\Desktop\Semester 4\Stima\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\grafGUI.csprojAssemblyReference.cache
+C:\Users\Farras\Desktop\Semester 4\Stima\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\MainWindow.g.cs
+C:\Users\Farras\Desktop\Semester 4\Stima\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\App.g.cs
+C:\Users\Farras\Desktop\Semester 4\Stima\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\grafGUI_MarkupCompile.cache
+C:\Users\Farras\Desktop\Semester 4\Stima\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\grafGUI_MarkupCompile.lref
+C:\Users\Farras\Desktop\Semester 4\Stima\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\MainWindow.baml
+C:\Users\Farras\Desktop\Semester 4\Stima\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\grafGUI.g.resources
+C:\Users\Farras\Desktop\Semester 4\Stima\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\grafGUI.Properties.Resources.resources
+C:\Users\Farras\Desktop\Semester 4\Stima\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\grafGUI.csproj.GenerateResource.cache
+C:\Users\Farras\Desktop\Semester 4\Stima\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\grafGUI.exe
+C:\Users\Farras\Desktop\Semester 4\Stima\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\grafGUI.pdb
+C:\Users\Farras\Desktop\copytubesstima2\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\grafGUI.csprojAssemblyReference.cache
+C:\Users\Farras\Desktop\copytubesstima2\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\App.g.cs
+C:\Users\Farras\Desktop\copytubesstima2\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\grafGUI_MarkupCompile.cache
+C:\Users\Farras\Desktop\copytubesstima2\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\grafGUI.exe
+C:\Users\Farras\Desktop\copytubesstima2\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\grafGUI.pdb
+C:\Users\Farras\Desktop\copytubesstima2\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\bin\Debug\grafGUI.exe.config
+C:\Users\Farras\Desktop\copytubesstima2\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\bin\Debug\grafGUI.exe
+C:\Users\Farras\Desktop\copytubesstima2\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\bin\Debug\grafGUI.pdb
+C:\Users\Farras\Desktop\copytubesstima2\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\MainWindow.g.cs
+C:\Users\Farras\Desktop\copytubesstima2\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\grafGUI_MarkupCompile.lref
+C:\Users\Farras\Desktop\copytubesstima2\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\MainWindow.baml
+C:\Users\Farras\Desktop\copytubesstima2\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\grafGUI.g.resources
+C:\Users\Farras\Desktop\copytubesstima2\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\grafGUI.Properties.Resources.resources
+C:\Users\Farras\Desktop\copytubesstima2\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\grafGUI.csproj.GenerateResource.cache
+C:\Users\Farras\Desktop\copytubesstima2\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\obj\Debug\grafGUI.csproj.CopyComplete
+C:\Users\Farras\Desktop\copytubesstima2\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\bin\Debug\WindowsFormsIntegration.dll
+C:\Users\Farras\Desktop\copytubesstima2\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\bin\Debug\AutomaticGraphLayout.dll
+C:\Users\Farras\Desktop\copytubesstima2\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\bin\Debug\AutomaticGraphLayout.Drawing.dll
+C:\Users\Farras\Desktop\copytubesstima2\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\bin\Debug\Microsoft.Msagl.dll
+C:\Users\Farras\Desktop\copytubesstima2\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\bin\Debug\Microsoft.Msagl.GraphViewerGdi.dll
+C:\Users\Farras\Desktop\copytubesstima2\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\bin\Debug\Microsoft.Msagl.WpfGraphControl.dll
+C:\Users\Farras\Desktop\copytubesstima2\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\bin\Debug\Microsoft.Msagl.xml
+C:\Users\Farras\Desktop\copytubesstima2\Tubes2Stima\Tubes2\Graf\grafGUI\grafGUI\bin\Debug\Microsoft.Msagl.GraphViewerGdi.xml

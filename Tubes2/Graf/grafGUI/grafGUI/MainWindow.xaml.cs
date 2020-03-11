@@ -1,17 +1,8 @@
-﻿using System;
+﻿using Microsoft.Msagl.Drawing;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace grafGUI
 {
@@ -252,12 +243,11 @@ namespace grafGUI
             }
         }
 
-        private void button3_Click(object sender, RoutedEventArgs e)
+        private void simulate(int query)
         {
             string temp = "";
-            int query = Int32.Parse(Query.Text);
-            input();
             BFS(query);
+
             temp = temp + "Kota yang terinfeksi: \n";
             foreach (int x in infectedCity)
             {
@@ -265,8 +255,79 @@ namespace grafGUI
             }
 
             Hasil.Text = temp;
+
+            Graph graph = new Graph("graph");
+
+            foreach (var i in getEdgeList())
+            {
+                Edge tempEdge = graph.AddEdge(getNameFromidx[i.Item1], getNameFromidx[i.Item2]);
+
+                if (!infectedEdge.Contains(i))
+                {
+                    tempEdge.Attr.Color = Microsoft.Msagl.Drawing.Color.Blue;
+                }
+                else
+                {
+                    tempEdge.Attr.Color = Microsoft.Msagl.Drawing.Color.Red;
+                }
+
+            }
+
+            for (int i = 1; i <= n; i++)
+            {
+                Node tempNode = graph.FindNode(getNameFromidx[i]);
+                tempNode.Attr.Shape = Microsoft.Msagl.Drawing.Shape.Hexagon;
+                if (infectedCity.Contains(i))
+                {
+                    tempNode.Attr.FillColor = Microsoft.Msagl.Drawing.Color.Red;
+                }
+                else
+                {
+                    graph.FindNode(getNameFromidx[i]).Attr.FillColor = Microsoft.Msagl.Drawing.Color.Blue;
+                }
+
+            }
+
+            gViewer.Graph = graph;
         }
+
+        private void button3_Click(object sender, RoutedEventArgs e)
+        {
+            int query = Int32.Parse(Query.Text);
+            input();
+            simulate(query);
+        }
+
+        private void button4_Click(object sender, RoutedEventArgs e)
+        {
+            // Fetch the string written in Query TextBox and increment it by one
+            int query = Int32.Parse(Query.Text);
+            query = query + 1;
+
+            //directly simulate
+            Query.Text = query.ToString();
+            input();
+            simulate(query);
+        }
+
+        private void button5_Click(object sender, RoutedEventArgs e)
+        {   
+            // Fetch the string written in Query TextBox and decrement it by one
+            int query = Int32.Parse(Query.Text);
+            query = query - 1;
+
+            //directly simulate
+            if (query > 0)
+            {
+                Query.Text = query.ToString();
+                input();
+                simulate(query);
+            }
+            
+        }
+
+
     }
 
-    
+
 }

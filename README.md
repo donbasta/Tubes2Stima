@@ -40,7 +40,7 @@ Kedua modul ini dapat diunduh pada *link* yang tertera pada *page* https://githu
 
 #### Building in Visual Studio
 <ul>
-    <li>Buka folder ini pada Visual Studio, jalankan file `grafGUI.sln`</li>
+    <li>Buka folder ini pada Visual Studio, jalankan file grafGUI.sln</li>
     <li>Tekan start untuk memulai program</li>
 </ul>
 

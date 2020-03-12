@@ -22,7 +22,7 @@
 
                 <StackPanel Grid.Column="0" Margin="0, 0, 10, 0">
                     <TextBlock Margin="0, 10, 0, 0" Text="Pilih file populasi kota: " FontSize="14" />
-                    <TextBox Margin="0, 10, 0, 10" x:Name="ChoosenFile" Padding="2" />
+                    <TextBlock Margin="0, 10, 0, 10" x:Name="ChoosenFile" Padding="2" />
                     <Grid Margin="0,10,0,0" Height="25">
 
                         <Button x:Name="OpenfilesButton" Click="button1_Click" Margin="0 0 0 0" Content="Choose file.." />
@@ -31,7 +31,7 @@
                 </StackPanel>
                 <StackPanel Grid.Column="1" Margin="10, 0, 0, 0">
                     <TextBlock Margin="0, 10, 0, 0" Text="Pilih file hubungan kota: " FontSize="14" />
-                    <TextBox Margin="0, 10, 0, 10" x:Name="ChoosenFile2" Padding="2"/>
+                    <TextBlock Margin="0, 10, 0, 10" x:Name="ChoosenFile2" Padding="2"/>
                     <Grid Margin="0,10,0,0" Height="25">
 
                         <Button x:Name="OpenfilesButton2" Click="button2_Click" Margin="0 0 0 0" Content="Choose file.." />
@@ -53,7 +53,7 @@
                 </Grid.ColumnDefinitions>
 
                 <StackPanel Grid.Column="0" Margin="0,0,0,0">
-                    <TextBox x:Name="Query" Padding="2" Margin="0,0,5,0"/>
+                    <TextBox x:Name="Query" Text="0" Padding="2" Margin="0,0,5,0"/>
                 </StackPanel>
 
                 <StackPanel Grid.Column="1" Margin="0,0,0,0">

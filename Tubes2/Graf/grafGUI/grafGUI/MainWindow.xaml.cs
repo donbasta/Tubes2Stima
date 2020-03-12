@@ -13,7 +13,7 @@ namespace grafGUI
     {
         const int INF = 1000000000;
         const Double EULER = 2.71828182845904523536;
-        const Double EPS = 1e-8;
+        //const Double EPS = 1e-8;
 
         static int[] populasi;
         static Dictionary<string, int> nameIndex;
@@ -112,14 +112,14 @@ namespace grafGUI
 
                 foreach (var dest in adjList[cur])
                 {
-                    if (Sfunc(cur, dest.Item2, TAkhir - TAwal[cur]) >= 1.0 - EPS)
+                    if (Sfunc(cur, dest.Item2, TAkhir - TAwal[cur]) > 1.0)
                     {
                         int low = 0, high = TAkhir - TAwal[cur];
 
                         while (low < high)
                         {   // binary search untuk mencari durasi yang dibutuhkan untuk menginfeksi kota lain
                             int mid = (low + high) / 2;
-                            if (Sfunc(cur, dest.Item2, mid) >= 1.0 - EPS)
+                            if (Sfunc(cur, dest.Item2, mid) > 1.0)
                             {
                                 high = mid;
                             }
@@ -156,7 +156,7 @@ namespace grafGUI
             {
                 foreach (var dest in adjList[node])
                 {   // mencatat semua edge yang berwarna merah (S(A, B) >= 1)
-                    if (Sfunc(node, dest.Item2, TAkhir - TAwal[node]) >= 1.0 - EPS)
+                    if (Sfunc(node, dest.Item2, TAkhir - TAwal[node]) > 1.0)
                     {
                         infectedEdge.Add((node, dest.Item1));
                     }
@@ -245,7 +245,18 @@ namespace grafGUI
 
         private void simulate(int query)
         {
+
             string temp = "";
+
+            if (query < 0)
+            {
+                temp = "Masukan tidak valid, hari harus berupa \nbilangan bulat non-negatif!";
+                Hasil.Text = temp;
+                return;
+
+            }
+
+            
             BFS(query);
 
             temp = temp + "Kota yang terinfeksi: \n";
@@ -317,7 +328,7 @@ namespace grafGUI
             query = query - 1;
 
             //directly simulate
-            if (query > 0)
+            if (query >= 0)
             {
                 Query.Text = query.ToString();
                 input();
